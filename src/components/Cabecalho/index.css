@@ -1,0 +1,28 @@
+/* Geral */
+.cabe1-infos {
+    display: flex;
+    align-items: center;
+}
+
+.cabe1-telefone, .cabe1-email {
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.cabe1-telefone p, .cabe1-email p {
+    font-size: 15px;
+    margin: 0;
+}
+
+.cabe1-telefone img {
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+}
+
+.cabe1-email img {
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+}
