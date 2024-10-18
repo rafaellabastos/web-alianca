@@ -20,9 +20,11 @@ export default function Cabecalho() {
 
                 <div className='cabe1-links'>
                     <nav>
-                        <Link to="/Faq">FAQ</Link>
-                        <Link to="/TrabConosco">Trabalhe Conosco</Link>
-                        <Link to="/Contato">Contato</Link>
+                        <Link to="/Faq">FAQ&nbsp;&nbsp;&nbsp;</Link>
+                        <Link to="/TrabConosco">Trabalhe Conosco&nbsp;&nbsp;&nbsp;</Link>
+                        <Link to="/Contato">Contato&nbsp;&nbsp;&nbsp;</Link>
+
+                        <img src="/images/pesquisa.png" alt="Pesquisar" />
                     </nav>
                 </div>
             </div>
