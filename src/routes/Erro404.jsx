@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function Cabecalho() {
+export default function Erro404() {
     return (
         <>
-            <p>hahahah</p>
+            <h1>gjsipjfma</h1>   
         </>
     )
 }
