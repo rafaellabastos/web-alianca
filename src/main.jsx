@@ -6,6 +6,9 @@ import App from './App'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Erro404 from './routes/Erro404.jsx';
 import Home from './routes/Home.jsx';
+import TrabConosco from './routes/TrabConosco.jsx';
+import Faq from './routes/Faq.jsx';
+import Contato from './routes/Contato.jsx';
 
 const router = createBrowserRouter([
   {
@@ -16,6 +19,18 @@ const router = createBrowserRouter([
       {
         path: '/home',
         element: <Home />
+      },
+      {
+        path: '/Faq',
+        element: <Faq />
+      },
+      {
+        path: 'TrabConosco',
+        element: <TrabConosco />
+      },
+      {
+        path: 'Contato',
+        element: <Contato />
       }
     ]
   }

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './index.css';
 
 export default function Cabecalho() {
@@ -18,7 +19,11 @@ export default function Cabecalho() {
                 </div>
 
                 <div className='cabe1-links'>
-
+                    <nav>
+                        <Link to="/Faq">FAQ</Link>
+                        <Link to="/TrabConosco">Trabalhe Conosco</Link>
+                        <Link to="/Contato">Contato</Link>
+                    </nav>
                 </div>
             </div>
         </>
