@@ -27,6 +27,12 @@ export default function Cabecalho() {
                         <img src="/images/pesquisa.png" alt="Pesquisar" />
                     </nav>
                 </div>
+
+                <div className='cabe1-redes'>
+                    <a href="https://www.linkedin.com/company/aliancatraducoes/" target='_blank'><img src="/images/linkedin.png" alt="Linkedin"/></a>
+                    <a href="https://www.instagram.com/aliancatraducoes/" target='_blank'><img src="/images/instagram.png" alt="Instagram"/></a>
+                    <a href="https://www.youtube.com/channel/UCezx6MhawV0HB830k9gDYtw?reload=9" target='_blank'><img src="/images/youtube.png" alt="Youtube"/></a>
+                </div>
             </div>
         </>
     )

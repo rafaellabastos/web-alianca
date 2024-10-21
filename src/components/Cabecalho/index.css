@@ -56,3 +56,13 @@
     margin-right: 5px;
 }
 
+/* Redes Sociais */
+.cabe1-redes {
+    display: flex;
+    gap: 10px;
+}
+
+.cabe1-redes img {
+    width: 20px;
+    height: 20px;
+}
